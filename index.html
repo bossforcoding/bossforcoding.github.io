@@ -24,6 +24,8 @@
     "@type": "Person",
     "name": "Mattia Bosetti",
     "jobTitle": "Research Assistant",
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "SUPSI" },
+    "knowsAbout": ["Artificial Intelligence", "Multi-agent systems", "Large language models", "Optimization algorithms", "Full-stack development"],
     "affiliation": { "@type": "CollegeOrUniversity", "name": "SUPSI" },
     "image": "https://bossforcoding.github.io/foto.jpg",
     "url": "https://bossforcoding.github.io/",
@@ -103,6 +105,13 @@
     .role { margin-top: 6px; font-weight: 500; }
     .affil { margin-top: 2px; color: var(--muted); font-size: 14px; }
 
+    .bio { margin: 18px auto 0; max-width: 420px; color: var(--muted); font-size: 14.5px; line-height: 1.6; }
+    ul.tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 16px; }
+    ul.tags li {
+      font-size: 12px; font-weight: 500; color: var(--muted);
+      background: var(--tile); border-radius: 999px; padding: 3px 10px;
+    }
+
     section { margin-top: 24px; }
     h2 {
       font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
@@ -159,6 +168,10 @@
       <h1>Mattia Bosetti</h1>
       <p class="role">Research Assistant · Master's Student</p>
       <p class="affil">SUPSI · University of Applied Sciences and Arts of Southern Switzerland</p>
+      <p class="bio">I studied Computer Engineering at SUPSI in Lugano, where I earned my Bachelor's degree, and continued with a Master's in Data Science and Artificial Intelligence. With a background as a full-stack developer, I work where software engineering meets AI: LLM-based multi-agent systems, chatbots and optimization algorithms.</p>
+      <ul class="tags" aria-label="Skills">
+        <li>Multi-agent systems</li><li>LLMs &amp; chatbots</li><li>Optimization</li><li>Python</li><li>Java · Spring</li><li>C++</li><li>React</li><li>Docker</li><li>Kubernetes</li>
+      </ul>
     </header>
 
     <section aria-labelledby="h-research">
